@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Symbol / Word Counter",
+    "version": "1.0",
+    "icons": {"128": "icon.png"},
+	"browser_action": {
+		"default_popup": "popup.html"
+    },
+    "permissions": ["tabs", "<all_urls>"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["popup.js"]
+        }
+      ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">	
+   <title>Example Extention</title>
+   <script src="./popup.js"></script>
+   <style>
+       body{
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 114.44%);
+        width:200px;
+        height:150px;
+       }
+       h1{
+        font-size: 16px;
+        text-align: center;
+        color: aliceblue;
+       }
+       .subtext{
+        color: aliceblue;
+        font-size: 15px;
+        padding: 5px 0;
+       }
+       .symbol, .word{
+        font-size: 15px;
+        color: aliceblue;
+        font-weight: bolder;
+       }
+   </style>
+</head>
+<body>
+       <h1>Symbol / Word Counter</h1>
+        <p class="subtext">Your selected text has`</p>
+        <p class="symbol">Symbol - <span id="symbol"></span></p>
+        <p class="word">Word - <span id="word"></span></p>
+</body>
+</html>
